@@ -1,3 +1,5 @@
+# export FLASK_APP=app.py && python3 -m flask run
+
 from flask import Flask, render_template, request
 
 from calculator import quadratic
